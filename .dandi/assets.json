@@ -5,7 +5,7 @@
 "blob":
 "c3d0b627-6abb-4b8e-a44b-e51fe53cccfc",
 "created":
-"2023-11-02T17:52:20.444534+00:00",
+"2023-11-02T17:52:20.444534Z",
 "metadata":
 {
 "@context":
@@ -203,7 +203,7 @@
 ]
 },
 "modified":
-"2023-11-02T17:52:20.474737+00:00",
+"2023-11-02T17:52:20.474737Z",
 "path":
 "sub-4mm-mouse-1/sub-4mm-mouse-1_image+ophys.nwb",
 "size":
@@ -215,7 +215,7 @@
 "blob":
 "1da756f3-ab4d-4796-bf27-ad8f9054eaf0",
 "created":
-"2023-10-30T16:10:56.040820+00:00",
+"2023-10-30T16:10:56.040820Z",
 "metadata":
 {
 "@context":
@@ -293,7 +293,7 @@
 ]
 },
 "modified":
-"2023-10-30T16:10:56.040841+00:00",
+"2023-10-30T16:10:56.040841Z",
 "path":
 "sub-4mm-mouse-1/sub-4mm-mouse-1_image+ophys/60d277d6-24fd-4817-bb02-41382db59172_external_file_0.avi",
 "size":
