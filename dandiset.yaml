@@ -3,7 +3,16 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000411
+  name: visual cortex
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0008930
+  name: somatosensory cortex
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000956
+  name: cerebral cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -40,8 +49,11 @@ citation: Scherrer, Joseph R.; Lynch, Galen F.; Zhang, Jie J.; Fee, Michale S. (
   An optical design enabling lightweight and large field-of-view head-mounted microscopes
   (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000691/draft
 contributor:
-- affiliation: []
-  email: fee@mit.edu
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  email: joebob@mit.edu
   identifier: 0000-0003-0424-3483
   includeInCitation: true
   name: Scherrer, Joseph R.
@@ -49,19 +61,30 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  identifier: 0000-0003-4307-0247
   includeInCitation: true
   name: Lynch, Galen F.
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  identifier: 0000-0002-9089-1462
   includeInCitation: true
   name: Zhang, Jie J.
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
   email: fee@mit.edu
   identifier: 0000-0001-7539-1745
   includeInCitation: true
@@ -86,6 +109,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 - contactPoint: []
+  identifier: https://ror.org/003ghvj67
   includeInCitation: false
   name: McKnight Foundation
   roleName:
@@ -132,7 +156,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000691/versions/draft/assets/
 name: An optical design enabling lightweight and large field-of-view head-mounted
   microscopes
-protocol: []
 relatedResource:
 - identifier: An optical design enabling lightweight and large field-of-view head-mounted
     microscopes
@@ -146,7 +169,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-studyTarget: []
 url: https://dandiarchive.org/dandiset/000691/draft
 version: draft
 wasGeneratedBy: []
